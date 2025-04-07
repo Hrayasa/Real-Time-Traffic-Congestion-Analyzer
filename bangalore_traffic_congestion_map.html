@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dcec74824e82efdd0bd0cae98971d770 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dcec74824e82efdd0bd0cae98971d770" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dcec74824e82efdd0bd0cae98971d770 = L.map(
+                "map_dcec74824e82efdd0bd0cae98971d770",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98067739e3affc986b5aa0c05cfc7db1 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_98067739e3affc986b5aa0c05cfc7db1.addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var marker_165342d1b9b6abad13c4aff3dca26a4b = L.marker(
+                [12.879412810084235, 77.6357244247957],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_1d57c7bcb76ab17ca00be7862e4ed5cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_406a8943e6a50a50638e1f43649915ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4711d66012bac03825f84cba0ffc18bf = $(`<div id="html_4711d66012bac03825f84cba0ffc18bf" style="width: 100.0%; height: 100.0%;">Area: Indiranagar Congestion: 77%</div>`)[0];
+                popup_406a8943e6a50a50638e1f43649915ea.setContent(html_4711d66012bac03825f84cba0ffc18bf);
+            
+        
+
+        marker_165342d1b9b6abad13c4aff3dca26a4b.bindPopup(popup_406a8943e6a50a50638e1f43649915ea)
+        ;
+
+        
+    
+    
+                marker_165342d1b9b6abad13c4aff3dca26a4b.setIcon(icon_1d57c7bcb76ab17ca00be7862e4ed5cb);
+            
+    
+            var marker_e0fc19b21366b5ca19f8bc039162b752 = L.marker(
+                [12.876172906115638, 77.61871340991313],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_03650055c6e5794ffac63e9fa6dc16b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72125c19f83a121281c3c923a45d4e8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c04d70afc11d99d08f7f027c4b58dd7 = $(`<div id="html_6c04d70afc11d99d08f7f027c4b58dd7" style="width: 100.0%; height: 100.0%;">Area: Koramangala Congestion: 41%</div>`)[0];
+                popup_72125c19f83a121281c3c923a45d4e8c.setContent(html_6c04d70afc11d99d08f7f027c4b58dd7);
+            
+        
+
+        marker_e0fc19b21366b5ca19f8bc039162b752.bindPopup(popup_72125c19f83a121281c3c923a45d4e8c)
+        ;
+
+        
+    
+    
+                marker_e0fc19b21366b5ca19f8bc039162b752.setIcon(icon_03650055c6e5794ffac63e9fa6dc16b1);
+            
+    
+            var marker_b69deaacbbe476da21e50a0d3bca26e9 = L.marker(
+                [13.051144293621496, 77.68171261626945],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_31c335ad0d625a14e80d62461617e7b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b3699476e7b099b35099ea3362b0595 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f59ed005aec623372aa22313b138df5 = $(`<div id="html_6f59ed005aec623372aa22313b138df5" style="width: 100.0%; height: 100.0%;">Area: Electronic City Congestion: 66%</div>`)[0];
+                popup_8b3699476e7b099b35099ea3362b0595.setContent(html_6f59ed005aec623372aa22313b138df5);
+            
+        
+
+        marker_b69deaacbbe476da21e50a0d3bca26e9.bindPopup(popup_8b3699476e7b099b35099ea3362b0595)
+        ;
+
+        
+    
+    
+                marker_b69deaacbbe476da21e50a0d3bca26e9.setIcon(icon_31c335ad0d625a14e80d62461617e7b2);
+            
+    
+            var marker_cbbe288dbeda9fd0ecc5e554bd70cfc7 = L.marker(
+                [13.064814062751706, 77.55944728204342],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_cfe5684dfa37c7296b07855c8966caf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a9b1eeaa48bf9796c3883dd16d3554f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28be02b2c7f6f662ee0b04dfc13dafec = $(`<div id="html_28be02b2c7f6f662ee0b04dfc13dafec" style="width: 100.0%; height: 100.0%;">Area: Whitefield Congestion: 69%</div>`)[0];
+                popup_6a9b1eeaa48bf9796c3883dd16d3554f.setContent(html_28be02b2c7f6f662ee0b04dfc13dafec);
+            
+        
+
+        marker_cbbe288dbeda9fd0ecc5e554bd70cfc7.bindPopup(popup_6a9b1eeaa48bf9796c3883dd16d3554f)
+        ;
+
+        
+    
+    
+                marker_cbbe288dbeda9fd0ecc5e554bd70cfc7.setIcon(icon_cfe5684dfa37c7296b07855c8966caf0);
+            
+    
+            var marker_88f108e15bffc74d96c9b52c5db2d789 = L.marker(
+                [13.066004925831768, 77.49489156659865],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_e51e29ca299db14bb1de8f699928e8f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac1ba88874be25efd93fff9367e01fa3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5acc9f801ddf17c0ceaef3ff0ebb4829 = $(`<div id="html_5acc9f801ddf17c0ceaef3ff0ebb4829" style="width: 100.0%; height: 100.0%;">Area: Marathahalli Congestion: 56%</div>`)[0];
+                popup_ac1ba88874be25efd93fff9367e01fa3.setContent(html_5acc9f801ddf17c0ceaef3ff0ebb4829);
+            
+        
+
+        marker_88f108e15bffc74d96c9b52c5db2d789.bindPopup(popup_ac1ba88874be25efd93fff9367e01fa3)
+        ;
+
+        
+    
+    
+                marker_88f108e15bffc74d96c9b52c5db2d789.setIcon(icon_e51e29ca299db14bb1de8f699928e8f9);
+            
+    
+            var marker_41d6561e64b92f1c41a2d48acff4f822 = L.marker(
+                [13.062129813440649, 77.53308188824046],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_02aa642f6330d2595dcdb13301f15b18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82957c102e627eb38fef48da101896d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b72bd8229de3c81dd0e77b39baf4b28b = $(`<div id="html_b72bd8229de3c81dd0e77b39baf4b28b" style="width: 100.0%; height: 100.0%;">Area: HSR Layout Congestion: 42%</div>`)[0];
+                popup_82957c102e627eb38fef48da101896d8.setContent(html_b72bd8229de3c81dd0e77b39baf4b28b);
+            
+        
+
+        marker_41d6561e64b92f1c41a2d48acff4f822.bindPopup(popup_82957c102e627eb38fef48da101896d8)
+        ;
+
+        
+    
+    
+                marker_41d6561e64b92f1c41a2d48acff4f822.setIcon(icon_02aa642f6330d2595dcdb13301f15b18);
+            
+    
+            var marker_ec674186546684a7d5642e29de022474 = L.marker(
+                [12.91429906144955, 77.55144733676273],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_acf6eb350d045283b0678ef1c9bbed4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_49f1805c324b773c9c6c6c7aca8729c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20fc2764a1a28741e44425e1ca1174a4 = $(`<div id="html_20fc2764a1a28741e44425e1ca1174a4" style="width: 100.0%; height: 100.0%;">Area: Jayanagar Congestion: 61%</div>`)[0];
+                popup_49f1805c324b773c9c6c6c7aca8729c0.setContent(html_20fc2764a1a28741e44425e1ca1174a4);
+            
+        
+
+        marker_ec674186546684a7d5642e29de022474.bindPopup(popup_49f1805c324b773c9c6c6c7aca8729c0)
+        ;
+
+        
+    
+    
+                marker_ec674186546684a7d5642e29de022474.setIcon(icon_acf6eb350d045283b0678ef1c9bbed4a);
+            
+    
+            var marker_baf507c67d1a9ffaa0988f282bf73419 = L.marker(
+                [12.886618462880786, 77.68771587365826],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_72da6fcc8c14f5947a5960ad32d1c5c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_23d840e016d66e73469b073ce05be6a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a55ada11c6f2e6a0d83e4534aec5d901 = $(`<div id="html_a55ada11c6f2e6a0d83e4534aec5d901" style="width: 100.0%; height: 100.0%;">Area: JP Nagar Congestion: 79%</div>`)[0];
+                popup_23d840e016d66e73469b073ce05be6a3.setContent(html_a55ada11c6f2e6a0d83e4534aec5d901);
+            
+        
+
+        marker_baf507c67d1a9ffaa0988f282bf73419.bindPopup(popup_23d840e016d66e73469b073ce05be6a3)
+        ;
+
+        
+    
+    
+                marker_baf507c67d1a9ffaa0988f282bf73419.setIcon(icon_72da6fcc8c14f5947a5960ad32d1c5c8);
+            
+    
+            var marker_48fac906209bfd91c80ea3a64ab0f3c8 = L.marker(
+                [12.988571085628767, 77.58781847387789],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_8c16cac1e7714408352413fbc8cbacd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a833b62aa1ffcf64b1e50a7ab538bec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_356aee16e8285c2a3602a0af6ea0ec83 = $(`<div id="html_356aee16e8285c2a3602a0af6ea0ec83" style="width: 100.0%; height: 100.0%;">Area: BTM Layout Congestion: 79%</div>`)[0];
+                popup_9a833b62aa1ffcf64b1e50a7ab538bec.setContent(html_356aee16e8285c2a3602a0af6ea0ec83);
+            
+        
+
+        marker_48fac906209bfd91c80ea3a64ab0f3c8.bindPopup(popup_9a833b62aa1ffcf64b1e50a7ab538bec)
+        ;
+
+        
+    
+    
+                marker_48fac906209bfd91c80ea3a64ab0f3c8.setIcon(icon_8c16cac1e7714408352413fbc8cbacd1);
+            
+    
+            var marker_16dfc88767e0bc9bf254a007557b6916 = L.marker(
+                [12.980218007855376, 77.57631818184701],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_30be901363c4d93edd2d8245b07c3089 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "car",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad013b9770d8c30edbd1fe0c89729815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3a8fc65c3c3e9cb2471ad732439303a = $(`<div id="html_a3a8fc65c3c3e9cb2471ad732439303a" style="width: 100.0%; height: 100.0%;">Area: Rajajinagar Congestion: 59%</div>`)[0];
+                popup_ad013b9770d8c30edbd1fe0c89729815.setContent(html_a3a8fc65c3c3e9cb2471ad732439303a);
+            
+        
+
+        marker_16dfc88767e0bc9bf254a007557b6916.bindPopup(popup_ad013b9770d8c30edbd1fe0c89729815)
+        ;
+
+        
+    
+    
+                marker_16dfc88767e0bc9bf254a007557b6916.setIcon(icon_30be901363c4d93edd2d8245b07c3089);
+            
+    
+            var marker_7c48e3c9115916bb058b503538108d46 = L.marker(
+                [13.00814733806855, 77.56262782711528],
+                {
+}
+            ).addTo(map_dcec74824e82efdd0bd0cae98971d770);
+        
+    
+            var icon_defdedde197fb1c61b31c6176ffa4383 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cbaf3963b1c3883e0d2c76c2c7e2ab0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5842af470795b2c9108b08498e20185 = $(`<div id="html_b5842af470795b2c9108b08498e20185" style="width: 100.0%; height: 100.0%;">Predicted City Congestion: 72.33%</div>`)[0];
+                popup_cbaf3963b1c3883e0d2c76c2c7e2ab0f.setContent(html_b5842af470795b2c9108b08498e20185);
+            
+        
+
+        marker_7c48e3c9115916bb058b503538108d46.bindPopup(popup_cbaf3963b1c3883e0d2c76c2c7e2ab0f)
+        ;
+
+        
+    
+    
+                marker_7c48e3c9115916bb058b503538108d46.setIcon(icon_defdedde197fb1c61b31c6176ffa4383);
+            
+</script>
+</html>
